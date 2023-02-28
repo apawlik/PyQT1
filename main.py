@@ -6,7 +6,8 @@ import time
 import os
 
 #Fix issue with Qt on Macs
-os.environ['QT_MAC_WANTS_LAYER'] = '1'
+os.environ['QT_MAC_WANTS_LAYER'] = '1' #Check if it works?
+
 
 class MainWindow(QMainWindow):
     def __init__(self, *args, **kwargs):
